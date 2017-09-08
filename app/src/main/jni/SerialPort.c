@@ -13,7 +13,7 @@ static const char *TAG="serial_port";
 #define LOGD(fmt, args...) __android_log_print(ANDROID_LOG_DEBUG, TAG, fmt, ##args)
 #define LOGE(fmt, args...) __android_log_print(ANDROID_LOG_ERROR, TAG, fmt, ##args)
 
-
+//test
 static speed_t getBaudrate(jint baudrate)
 {
 	switch(baudrate) {
